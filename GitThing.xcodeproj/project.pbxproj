@@ -13,6 +13,8 @@
 		2773513C209933C200D5912D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2773513B209933C200D5912D /* Assets.xcassets */; };
 		2773513F209933C200D5912D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2773513D209933C200D5912D /* LaunchScreen.storyboard */; };
 		27735142209933C200D5912D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 27735141209933C200D5912D /* main.m */; };
+		2773514A2099376300D5912D /* Color.m in Sources */ = {isa = PBXBuildFile; fileRef = 277351492099376300D5912D /* Color.m */; };
+		2773514D209937AE00D5912D /* ModelManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2773514C209937AE00D5912D /* ModelManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		2773513E209933C200D5912D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		27735140209933C200D5912D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		27735141209933C200D5912D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		277351482099376300D5912D /* Color.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Color.h; sourceTree = "<group>"; };
+		277351492099376300D5912D /* Color.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Color.m; sourceTree = "<group>"; };
+		2773514B209937AE00D5912D /* ModelManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModelManager.h; sourceTree = "<group>"; };
+		2773514C209937AE00D5912D /* ModelManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModelManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 		27735131209933C200D5912D /* GitThing */ = {
 			isa = PBXGroup;
 			children = (
+				2773514B209937AE00D5912D /* ModelManager.h */,
+				2773514C209937AE00D5912D /* ModelManager.m */,
+				277351482099376300D5912D /* Color.h */,
+				277351492099376300D5912D /* Color.m */,
 				27735132209933C200D5912D /* AppDelegate.h */,
 				27735133209933C200D5912D /* AppDelegate.m */,
 				27735135209933C200D5912D /* ViewController.h */,
@@ -143,7 +153,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				27735137209933C200D5912D /* ViewController.m in Sources */,
+				2773514A2099376300D5912D /* Color.m in Sources */,
 				27735142209933C200D5912D /* main.m in Sources */,
+				2773514D209937AE00D5912D /* ModelManager.m in Sources */,
 				27735134209933C200D5912D /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
