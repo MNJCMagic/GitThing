@@ -18,6 +18,8 @@
         
         
     }
+    self.colors = array;
+    return array;
 }
 
 @end
